@@ -1,0 +1,24 @@
+*{
+    background-color: aliceblue;
+    color: rgb(228, 171, 97);
+    margin: auto;
+}
+input{
+    display: block;
+    background-color: aquamarine;
+    transition: 1s ease-in-out;
+    /* margin: auto; */
+    margin-bottom: 20px ;
+    margin-top: 20px;
+
+}
+input:hover{
+    transform: scale(1.7);
+    
+
+}
+.gen{
+    margin: 50px;
+    font-size: larger;
+    display: inline-block;
+}

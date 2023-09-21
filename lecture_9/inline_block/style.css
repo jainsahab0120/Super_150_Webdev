@@ -1,0 +1,35 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+div{
+    display: inline-block;
+    border: 20px solid hotpink;
+    border-radius: 35px;
+    padding:30px ;
+    height: 250px;
+    width: 250px;
+    background-color: wheat;
+    margin: 30px;
+    transition: 1.3s ease-in-out;
+
+    
+
+    visibility: hidden;
+    
+
+
+}
+div:hover{
+    transform: scale(0.7);
+    border-width: 40px ;
+    border-radius: 35px;
+}
+
+
+span{
+
+    display: inline-block;
+    /* inline ki property rahe aur box model ki property bhi use kr sake  */
+}

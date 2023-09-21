@@ -1,0 +1,40 @@
+/* :hover  */
+*{
+    text-align: center;
+}
+h1{
+    border: 2px solid burlywood;
+    display: inline-block;
+    padding: 5px 100px 5px 100px;
+    border-radius: 25px;
+    transition: 1s ease-in;
+}
+h1:hover{
+    background-color: aqua;
+    color: hotpink;
+    /* text-transform: capitalize;
+    font-size: larger; */
+    transform: Scale(1.5) ;
+}
+
+/* :focus */
+
+input{
+    background-color: rgb(198, 173, 178);
+
+}
+input:focus{
+    background-color:royalblue;
+}
+/* :active */
+
+a{
+    font-size: xx-large;
+    color: rgb(116, 116, 91);
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(132, 1, 1);
+    font-size: 50px;
+}
+

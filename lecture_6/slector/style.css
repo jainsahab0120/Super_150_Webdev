@@ -1,0 +1,38 @@
+/* universal selector */
+
+*{
+    border: 2px  dotted brown;
+    /* text-align: center; */
+}
+/* elemnt selector */
+h1{
+    color: hotpink;
+}
+/* p{
+    color: rgb(194, 41, 41);
+} */
+/* id selector */
+/* it is for unique elements 
+ek se jada pr kam kr jayga pr uske liye  */
+#aryan{
+    background-color: cornflowerblue;
+}
+/* class selector */
+.jain{
+    background-color: aqua;
+    
+    color: blue;
+}
+/* attribute selector */
+input[type="text"]{
+    background-color: rgb(169, 108, 226);
+    color: aqua;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    margin-left: 350px;
+    text-decoration: underline;
+    font-size: xx-large;
+    letter-spacing: 3px;
+
+}

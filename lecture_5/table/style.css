@@ -1,0 +1,46 @@
+body{
+text-align: center;
+}
+h1{
+    display:inline-block ;
+    color: rgb(180, 108, 15);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    border-radius: 9px;
+    border: solid ;
+    border-width: 10px;
+    border-color: cadetblue;
+    border-style: groove;
+ border-top-left-radius: 3px;
+ border-image: url();
+ background-color: rgb(251, 255, 167);
+ font-weight: bolder;
+ /* text-align: center; */
+
+
+}
+table{
+    border-width: 10px;
+    border-color: rgb(6, 88, 91);
+    border-style: groove;
+    border: ridge 10px grey;
+    color: rgb(2, 83, 56);
+    background-color: bisque;
+ 
+}
+#one{
+    color: brown;
+}
+td{
+    color: hotpink;
+}
+.two{
+    color: teal;
+}
+tfoot{
+    letter-spacing: 10px;
+    font-weight: 800;
+    /* text-size-adjust: 2px; */
+
+
+}

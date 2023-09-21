@@ -1,0 +1,51 @@
+h1{
+    color: rgb(252, 170, 64) ;
+
+}
+p{
+    color: rgb(6, 78, 78);
+}
+h1::after{
+    color: rgba(0, 0, 0, 0.782);
+    content: " lets study";
+}
+h1::before{
+    content: "aao salooon ";
+
+}
+
+.one::first-line{
+    text-transform: uppercase;
+    font-size: x-large;
+    background-color: cornflowerblue;
+}
+/* first line is not ifxed it is depends on view port. */
+
+/* it will change the property of first word accodingly */
+.one::first-letter{
+    color: yellow;
+    font-size: 2.5em;
+    background-color: chocolate;
+}
+
+div{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    margin-left:30px ;
+    background-color: antiquewhite;
+    
+    
+}
+h2{
+    transition: 1.4s ease-in-out 0.2s;
+   writing-mode: vertical-lr;
+   /* transform: rotate(180deg); */
+
+}
+
+
+h2:hover{
+    transform: scale(1.35);
+    /* transform: rotate(270deg); */
+}

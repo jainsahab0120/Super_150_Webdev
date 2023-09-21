@@ -1,0 +1,65 @@
+/* if we wwant to select li of id one 
+descendant selector
+many jump is allowed */
+/* div ul li {
+    color: aqua;
+
+} */
+/* also  */
+div li{
+
+} 
+
+/* child  (>)
+ only one level down */
+
+ /* if we want to select id ulli  
+ shirf ek jump allowed hai*/
+/* combinator combine hoke bhi use kr sakte hai */
+
+ article > ul > li {
+
+
+ }
+ body >article > ul > li{
+
+ }
+
+ /* adjavent sibling */
+/* + sighn  */
+
+div ul h1{
+    color: rebeccapurple;
+
+}
+/* flow is from top to bootom and left to right
+isliye shirf li h1 ke niche wala hi select hua practically wo right mein  ahi 
+but oage pr niche show hoga  */
+/* ye li 3 ko selectkr dega */
+/* adjacent sibling */
+div>ul>h1 + li {
+    color: red;
+
+}
+/* ye li 5 ko select kr dega */
+div>ul>h1 + li +li +li {
+    color: red;
+
+}
+/* general sibling ~ 
+parent same hona jaruri hai
+h1 ke bad wale sab ko blure kr dega pr parent same ho */
+div>ul>h1 ~ li {
+    color: blue;
+
+}
+
+/* -----pseudo classes -------*/
+
+
+
+
+
+
+
+
